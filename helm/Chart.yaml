@@ -1,19 +1,19 @@
 apiVersion: v2
-name: chart
-description: A Helm chart for Kubernetes
+name: user
+description: A Helm user for Kubernetes
 
-# A chart can be either an 'application' or a 'library' chart.
+# A user can be either an 'application' or a 'library' user.
 #
-# Application charts are a collection of templates that can be packaged into versioned archives
+# Application users are a collection of templates that can be packaged into versioned archives
 # to be deployed.
 #
-# Library charts provide useful utilities or functions for the chart developer. They're included as
-# a dependency of application charts to inject those utilities and functions into the rendering
-# pipeline. Library charts do not define any templates and therefore cannot be deployed.
+# Library users provide useful utilities or functions for the user developer. They're included as
+# a dependency of application users to inject those utilities and functions into the rendering
+# pipeline. Library users do not define any templates and therefore cannot be deployed.
 type: application
 
-# This is the chart version. This version number should be incremented each time you make changes
-# to the chart and its templates, including the app version.
+# This is the user version. This version number should be incremented each time you make changes
+# to the user and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
 version: 0.1.0
 
